@@ -1,4 +1,5 @@
 import BoxItem from '../BoxItem/BoxItem';
+import './ContentGrid.css';
 
 function ContentGrid() {
     return (
