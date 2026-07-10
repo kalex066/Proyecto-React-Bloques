@@ -1,18 +1,77 @@
-# React + Vite
+# Bloques de React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interfaz de usuario construida en React a partir de un wireframe, aplicando componentes funcionales y una estructura jerárquica clara. Es la versión en React del ejercicio "Trazando tus Bloques" de Fundamentos Web.
 
-Currently, two official plugins are available:
+## Objetivos del proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Construir una interfaz de usuario en React basada en un wireframe.
+- Aplicar el concepto de componentes funcionales.
+- Organizar los componentes en una estructura jerárquica clara.
+- Reforzar la reutilización de componentes dentro de una aplicación React.
 
-## React Compiler
+## Tecnologías utilizadas
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- JavaScript (ES6+)
+- CSS3
 
-Note: This will impact Vite dev & build performances.
+## Estructura de componentes
 
-## Expanding the ESLint configuration
+```
+App
+├── Header
+└── main-row
+    ├── ContentGrid
+    │   └── BoxItem (x3)
+    └── Sidebar
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Header**: barra superior (bloque amarillo).
+- **ContentGrid**: contenedor principal (bloque rosa) que agrupa las cajas azules y la barra verde.
+- **BoxItem**: componente reutilizable, usado tres veces para los bloques azules.
+- **Sidebar**: bloque lateral (celeste).
+
+## Instalación y ejecución
+
+Clona el repositorio e instala las dependencias:
+
+```bash
+git clone https://github.com/tu-usuario/bloques-react.git
+cd bloques-react
+npm install
+```
+
+Ejecuta el proyecto en modo desarrollo:
+
+```bash
+npm run dev
+```
+
+Abre tu navegador en `http://localhost:5173` para ver la aplicación.
+
+## Estructura del proyecto
+
+```
+bloques-react/
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── ContentGrid.jsx
+│   │   ├── BoxItem.jsx
+│   │   └── Sidebar.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+├── .gitignore
+├── package.json
+└── README.md
+```
+
+## Autor
+
+Karen Herrera
+
+## Licencia
+
+Este proyecto fue creado con fines educativos como parte del curso JavaScript full stack de Skillnest
