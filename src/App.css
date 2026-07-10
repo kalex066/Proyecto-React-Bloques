@@ -1,0 +1,44 @@
+.app-container {
+  background: #eaeaea;
+  padding: 15px;
+}
+
+.header {
+  background: #ffc400;
+  height: 120px;
+  margin-bottom: 15px;
+}
+
+.main-row {
+  display: flex;
+  gap: 15px;
+}
+
+.content-grid {
+  background: #ff1493;
+  padding: 15px;
+  flex: 3;
+}
+
+.boxes-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.box-item {
+  background: #0000cc;
+  height: 180px;
+  flex: 1;
+}
+
+.green-bar {
+  background: #33cc33;
+  height: 80px;
+  padding: 30px;
+}
+
+.sidebar {
+  background: #66ccff;
+  flex: 1;
+}
