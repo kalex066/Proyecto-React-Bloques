@@ -1,3 +1,5 @@
+import './BoxItem.css';
+
 function BoxItem() {
   return <div className="box-item"></div>;
 }

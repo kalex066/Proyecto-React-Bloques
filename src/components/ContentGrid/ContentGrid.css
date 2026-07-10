@@ -1,0 +1,18 @@
+.content-grid {
+    background: #ff1493;
+    padding: 15px;
+    flex: 3;
+}
+
+.boxes-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.green-bar {
+    background: #33cc33;
+    height: 90px;
+    padding: 10px;
+    box-sizing: border-box;
+}

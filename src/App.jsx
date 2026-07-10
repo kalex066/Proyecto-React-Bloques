@@ -1,6 +1,6 @@
-import Header from './components/Header';
-import ContentGrid from './components/ContentGrid';
-import Sidebar from './components/Sidebar';
+import Header from './components/Header/Header';
+import ContentGrid from './components/ContentGrid/ContentGrid';
+import Sidebar from './components/Sidebar/Sidebar';
 import './App.css';
 
 function App() {

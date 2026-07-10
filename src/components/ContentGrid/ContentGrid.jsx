@@ -1,4 +1,4 @@
-import BoxItem from './BoxItem';
+import BoxItem from '../BoxItem/BoxItem';
 
 function ContentGrid() {
     return (
